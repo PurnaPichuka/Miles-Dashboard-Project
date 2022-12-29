@@ -1,0 +1,695 @@
+<!-- Poorna -->
+<header class="clickOutSide" clickOutside (clickOutside)="clickedOutside()">
+  <div class="containers">
+    <div
+      class="main"
+      id="blur"
+      [ngClass]="{
+        containerabc: showModal == true,
+        transperent: arrow == true
+      }"
+    >
+      <!-- carousel -->
+      <div class="carousel_part">
+        <div class="carousel">
+          <div class="carousel__heading">
+            <span>Communication via</span><span>automatic actions</span>
+          </div>
+          <!-- <h1 class="carousel__heading">Communication via automatic actions</h1> -->
+          <div class="carousel__item" *ngIf="showData1">
+            Task automation refers to the use of software to complete work
+            activites. Task automation improves the accuracy & consistency and
+            powers more efficient processes. Task automation refers to the use
+            of software to complete work activites. Task automation improves the
+            accuracy.--1
+          </div>
+          <div class="carousel__item" *ngIf="showData2">
+            Task automation refers to the use of software to complete work
+            activites. Task automation improves the accuracy & consistency and
+            powers more efficient processes. Task automation refers to the use
+            of software to complete work activites. Task automation improves the
+            accuracy.--2
+          </div>
+          <div class="carousel__item" *ngIf="showData3">
+            Task automation refers to the use of software to complete work
+            activites. Task automation improves the accuracy & consistency and
+            powers more efficient processes. Task automation refers to the use
+            of software to complete work activites. Task automation improves the
+            accuracy.--3
+          </div>
+          <div class="carousel__item" *ngIf="showData4">
+            Task automation refers to the use of software to complete work
+            activites. Task automation improves the accuracy & consistency and
+            powers more efficient processes. Task automation refers to the use
+            of software to complete work activites. Task automation improves the
+            accuracy.--4
+          </div>
+
+          <div class="carousel__nav">
+            <span
+              class="carousel__button"
+              (click)="content1()"
+              [ngClass]="{ radio_color: content_1_color == true }"
+            ></span>
+            <span
+              class="carousel__button"
+              (click)="content2()"
+              [ngClass]="{ radio_color: content_2_color == true }"
+            ></span>
+            <span
+              class="carousel__button"
+              (click)="content3()"
+              [ngClass]="{ radio_color: content_3_color == true }"
+            ></span>
+            <span
+              class="carousel__button"
+              (click)="content4()"
+              [ngClass]="{ radio_color: content_4_color == true }"
+            ></span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="main__text">
+        <h1>Communication via <br />automatic actions</h1>
+        <div class="carousel-wrapper">
+          <div class="carousel-container">
+            <div class="carousel">
+              <div class="image" id="item1">
+                1- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non
+                optio corporis sint quas voluptatum magnam accusamus magni,
+                architecto, quae recusandae vero similique beatae! Cumque vel
+                autem adipisci ea. Iusto, sapiente.
+              </div>
+              <div class="image" id="item2">
+                2- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium exercitationem harum asperiores vitae consequuntur
+                ex velit placeat libero beatae iure porro vero non temporibus
+                reiciendis, at nulla, saepe aliquid delectus sapiente.
+              </div>
+              <div class="image" id="item3">
+                3- Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti praesentium voluptatum explicabo repellat fugiat est a
+                culpa natus, consectetur dolorem voluptatem odit quis sit dolore
+                iusto maxime quidem voluptates sapiente!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Animations -->
+      <div class="main__image">
+        <img src="/assets/images/Group 33752.svg" class="main__image__pencil" />
+        <img src="/assets/images/Group 33144.svg" class="main__image__books" />
+        <img src="/assets/images/Group.svg" class="main__image__openbook" />
+        <!-- lottiefiles -->
+        <lottie-player
+          class="main__image__lottie"
+          src="assets/json/Business.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        >
+        </lottie-player>
+        <div class="main__image__ntcbrd">
+          <a href="#!" (click)="popUp()">
+            <img src="/assets/images/Group 33784.svg" />
+          </a>
+          <!-- <b>Notice Board</b> -->
+          <!-- <h4>Happy Learning</h4> -->
+          <h4>{{ data1.ntcbrd }}</h4>
+        </div>
+        <a href="#!">
+          <img
+            src="/assets/images/lamp 33226.svg"
+            class="main__image__lamp"
+            (click)="lytSwitch()"
+          />
+        </a>
+        <img
+          src="/assets/images/Vector 2.svg"
+          class="main__image__light"
+          *ngIf="show"
+        />
+        <a href="#!">
+          <img
+            src="/assets/images/Vector.svg"
+            (click)="guide()"
+            class="main__image__vector"
+          />
+        </a>
+      </div>
+    </div>
+    <div class="popupimg" *ngIf="showModal">
+      <button class="close" (click)="close()">&times;</button>
+      <img src="/assets/images/Group 33784.svg" />
+      <!-- <b>Notice Board</b> -->
+      <h4>{{ data1.ntcbrd }}</h4>
+    </div>
+    <div>
+      <img src="/assets/images/Group 33757.svg" class="arrow1" *ngIf="arrow" />
+      <img src="/assets/images/Group 33758.svg" class="arrow2" *ngIf="arrow" />
+      <img src="/assets/images/Group 33779.svg" class="arrow3" *ngIf="arrow" />
+      <img src="/assets/images/Group 33780.svg" class="arrow4" *ngIf="arrow" />
+    </div>
+  </div>
+</header>
+
+<!-- Linga -->
+<main-body
+  [ngClass]="{
+    containerabc: showModal == true,
+    transperent: arrow == true
+  }"
+>
+  <div class="flex-container fontstyle">
+    <div class="card">
+      <h3 id="headername">Formalities</h3>
+
+      <img
+        class="ellipse1"
+        src="./assets/images/Ellipse 382.png"
+        alt="aa"
+        width="70px"
+        height="50px"
+      />
+      <img
+        class="ellipse2"
+        src="./assets/images/Ellipse 383.png"
+        alt="bb"
+        width="30px"
+        height="50px"
+      />
+
+      <div class="info">
+        <img
+          class="hover"
+          *ngIf="anytextmiles"
+          src="./assets/images/Frame 33215.png"
+          alt="ttt"
+        />
+
+        <div class="abc">
+          <input
+            type="radio"
+            name="text"
+            style="width: 13px; height: 11px"
+          />Enrolled for Bridge Course
+          <br />
+          <input
+            type="radio"
+            name="text"
+            style="width: 13px; height: 11px"
+          /><span>Evaluation Report Received</span>
+          <br />
+          <input
+            type="radio"
+            name="text"
+            style="width: 13px; height: 11px"
+          /><span>NTS Received</span>
+        </div>
+      </div>
+
+      <img class="path" src="./assets/images/Group 33245.png" alt="abc" />
+
+      <img
+        (mouseover)="anytextmiles = true"
+        (mouseout)="anytextmiles = false"
+        class="milestone1"
+        src="./assets/images/Group 33771.svg"
+        alt="ttt"
+      />
+      <img class="milestone1a" src="./assets/images/Line 5.png" alt="tttt" />
+    </div>
+
+    <div class="card11">
+      <img
+        (mouseover)="anytextmilesone = true"
+        (mouseout)="anytextmilesone = false"
+        class="milestone2"
+        src="./assets/images/Group 33776.png"
+        alt="jjj"
+      />
+
+      <img class="milestone2a" src="./assets/images/Line 5.png" alt="ff" />
+
+      <div class="checkbox1">
+        <img
+          *ngIf="anytextmilesone"
+          class="hover1"
+          src="./assets/images/Frame 33215.png"
+          alt="jjj"
+        />
+        <p><input type="checkbox" (click)="checkone($event)" />Cram Mode</p>
+        <span *ngIf="checkedone">
+          <img class="highlight" src="./assets/images/Vector.png" alt="ll" />
+        </span>
+
+        <img
+          (mouseover)="anytext = true"
+          (mouseout)="anytext = false"
+          src="./assets/images/auditing.png"
+          alt="Avatar"
+          style="display: block; margin: auto"
+        />
+
+        <img
+          *ngIf="anytext"
+          class="hoveronimage"
+          src="./assets/images/Frame 2010.png"
+          alt="kk"
+        />
+
+        <h4 id="info" style="text-align: center">Auditing</h4>
+        <p class="completed">Completed</p>
+
+        <p class="timing">12 Months Remaining</p>
+
+        <div class="grid-container2">
+          <img class="p" src="./assets/images/Group 33781.png" alt="aaa" />
+          <p id="pqr">Dec 2022</p>
+          <img class="pp" src="./assets/images/Group 33128.png" alt="ccc" />
+        </div>
+
+        <div class="grid-container1">
+          <div class="grid-item1">Videos</div>
+          <div class="grid-item1">SIMs</div>
+          <div class="grid-item1">MCQs</div>
+        </div>
+        <div class="grid-container">
+          <span class="grid-item"
+            ><img
+              class="a"
+              src="./assets/images/Group 33129.png"
+              alt="rr"
+            /><span>{{ data.videos }}</span></span
+          >
+          <span class="grid-item"
+            ><img
+              class="b"
+              src="./assets/images/Group 33129.png"
+              alt="rr"
+            /><span class="d">{{ data.sims }}</span></span
+          >
+          <span class="grid-item"
+            ><img
+              class="c"
+              src="./assets/images/Group 33129 (1).png"
+              alt="rr"
+            /><span class="e">{{ data.mcqs }}</span></span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="card22">
+      <img
+        (mouseover)="anytextmilestwo = true"
+        (mouseout)="anytextmilestwo = false"
+        class="milestone3"
+        src="./assets/images/Group 33777 (1).png"
+        alt=""
+      />
+
+      <img class="milestone3a" src="./assets/images/Line 5.png" alt="" />
+
+      <div class="card2inside">
+        <img
+          *ngIf="anytextmilestwo"
+          class="hover2"
+          src="./assets/images/Frame 33215.png"
+          alt=""
+        />
+
+        <p><input type="checkbox" (click)="checktwo($event)" />Cram Mode</p>
+
+        <span *ngIf="checkedtwo">
+          <img class="highlight" src="./assets/images/Vector.png" alt="" />
+        </span>
+        <img
+          (mouseover)="anytext2 = true"
+          (mouseout)="anytext2 = false"
+          src="./assets/images/finance.png"
+          alt="Avatar"
+          style="display: block; margin: auto"
+        />
+
+        <img
+          class="hovereffect2"
+          *ngIf="anytext2"
+          class="hovereffect2image"
+          src="./assets/images/Frame 2019.png"
+          alt=""
+        />
+
+        <h4 id="info" style="text-align: center">Finances</h4>
+        <p class="completed2">Completed</p>
+
+        <p class="timing2">12 Months Remaining</p>
+        <div class="grid-container2">
+          <img class="p" src="./assets/images/Group 33782.png" alt="" />
+          <p id="pqr" style="color: #daaa1b">Dec 2022</p>
+          <img class="pp" src="./assets/images/Group 33128.png" alt="" />
+        </div>
+
+        <div class="grid-container1">
+          <div class="grid-item1">Videos</div>
+          <div class="grid-item1">SIMs</div>
+          <div class="grid-item1">MCQs</div>
+        </div>
+        <div class="grid-container">
+          <span class="grid-item"
+            ><img
+              class="a"
+              src="./assets/images/Group 33129.png"
+              alt="rr"
+            /><span>{{ data.videos }}</span></span
+          >
+          <span class="grid-item"
+            ><img
+              class="b"
+              src="./assets/images/Group 33129.png"
+              alt="rr"
+            /><span class="d">{{ data.sims }}</span></span
+          >
+          <span class="grid-item"
+            ><img
+              class="c"
+              src="./assets/images/Group 33129 (1).png"
+              alt="rr"
+            /><span class="e">{{ data.mcqs }}</span></span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="card33">
+      <img
+        (mouseover)="anytextmilesthree = true"
+        (mouseout)="anytextmilesthree = false"
+        class="milestone4"
+        src="./assets/images/Group 33766.png"
+        alt="tt"
+      />
+      <img class="milestone4a" src="./assets/images/Line 5.png" alt="" />
+
+      <div class="checkbox3">
+        <img
+          *ngIf="anytextmilesthree"
+          class="hovereffect3"
+          src="./assets/images/Frame 33215.png"
+          alt="yy"
+        />
+        <p><input type="checkbox" (click)="checkthree($event)" />Cram Mode</p>
+        <span *ngIf="checkedthree">
+          <img class="highlight" src="./assets/images/Vector.png" alt="" />
+        </span>
+        <img
+          (mouseover)="anytext3 = true"
+          (mouseout)="anytext3 = false"
+          src="./assets/images/business.png"
+          alt="Avatar"
+          style="display: block; margin: auto"
+        />
+
+        <img
+          class="hovereffect3image"
+          *ngIf="anytext3"
+          class="hovereffect3image3"
+          src="./assets/images/Frame 2012.png"
+          alt=""
+        />
+
+        <h4 id="info" class="business">Business</h4>
+        <p class="completed3">Completed</p>
+
+        <p class="timing3">12 Months Remaining</p>
+        <div class="grid-container2">
+          <img class="p" src="./assets/images/Group 33134.png" alt="" />
+          <p id="pqr" style="color: #1691d3">Dec 2022</p>
+          <img class="pp" src="./assets/images/Group 33128.png" alt="" />
+        </div>
+
+        <div class="grid-container1">
+          <div class="grid-item1">Videos</div>
+          <div class="grid-item1">SIMs</div>
+          <div class="grid-item1">MCQs</div>
+        </div>
+
+        <div class="grid-container">
+          <span class="grid-item"
+            ><img
+              class="a"
+              src="./assets/images/Group 33129.png"
+              alt="rr"
+            /><span>{{ data.videos }}</span></span
+          >
+          <span class="grid-item"
+            ><img
+              class="b"
+              src="./assets/images/Group 33129.png"
+              alt="rr"
+            /><span class="d">{{ data.sims }}</span></span
+          >
+          <span class="grid-item"
+            ><img
+              class="c"
+              src="./assets/images/Group 33129 (1).png"
+              alt="rr"
+            /><span class="e">{{ data.mcqs }}</span></span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="card44">
+      <img
+        (mouseover)="anytextmilesfour = true"
+        (mouseout)="anytextmilesfour = false"
+        class="milestone5"
+        src="./assets/images/Group 33774.svg"
+        alt=""
+      />
+      <img class="milestone5a" src="./assets/images/Line 5.png" alt="" />
+
+      <div class="card4info">
+        <img
+          *ngIf="anytextmilesfour"
+          class="hovereffect4"
+          src="./assets/images/Frame 33215.png"
+          alt=""
+        />
+
+        <p><input type="checkbox" (click)="checkfour($event)" />Cram Mode</p>
+        <span *ngIf="checkedfour">
+          <img class="highlight" src="./assets/images/Vector.png" alt="" />
+        </span>
+        <img
+          (mouseover)="anytext4 = true"
+          (mouseout)="anytext4 = false"
+          src="./assets/images/regulation.png"
+          alt="Avatar"
+          style="display: block; margin: auto"
+        />
+
+        <img
+          *ngIf="anytext4"
+          class="hovereffect4one"
+          class="hovereffect4oneimage"
+          src="./assets/images/Frame 2013.png"
+          alt=""
+        />
+
+        <h4 class="card4infoone">Regulation</h4>
+        <p class="completed4">Completed</p>
+
+        <p class="timing4">12 Months Remaining</p>
+        <div class="grid-container2">
+          <img class="p" src="./assets/images/Group 33783.png" alt="" />
+          <p id="pqr" style="color: #c42026">Dec 2022</p>
+          <img class="pp" src="./assets/images/Group 33128.png" alt="" />
+        </div>
+
+        <div class="grid-container1">
+          <div class="grid-item1">Videos</div>
+          <div class="grid-item1">SIMs</div>
+          <div class="grid-item1">MCQs</div>
+        </div>
+
+        <div class="grid-container">
+          <span class="grid-item"
+            ><img
+              class="a"
+              src="./assets/images/Group 33129.png"
+              alt="rr"
+            /><span>{{ data.videos }}</span></span
+          >
+          <span class="grid-item"
+            ><img
+              class="b"
+              src="./assets/images/Group 33129.png"
+              alt="rr"
+            /><span class="d">{{ data.sims }}</span></span
+          >
+          <span class="grid-item"
+            ><img
+              class="c"
+              src="./assets/images/Group 33129 (1).png"
+              alt="rr"
+            /><span class="e">{{ data.mcqs }}</span></span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</main-body>
+
+<!-- Amith -->
+<footer
+  style="margin-top: 5%"
+  [ngClass]="{
+    containerabc: showModal == true,
+    transperent: arrow == true
+  }"
+>
+  <div class="container">
+    <div class="row1">
+      <div class="card1">
+        <h4>Exclusive Course</h4>
+        <span class="pro" id="pro">
+          Get Started With <br />
+          Go Programming
+          <button class="pro-button">PRO</button>
+        </span>
+        <h3 id="card1-h3">Start time 5th Nov 2020</h3>
+        <div>
+          <button
+            class="box-button"
+            id="regnow"
+            type="button"
+            value="Register Now"
+          >
+            Register Now
+          </button>
+        </div>
+        <img class="background-arch" src="../../assets/images/Mask group.svg" />
+      </div>
+      <div class="card2">
+        <div class="section-1">
+          <!-- <img class="background-blue" src="../../assets/images/Mask Copy 10.svg"> -->
+          <div class="bibliophile">
+            <img src="../../assets/images/Bibliophile-rafiki.svg" />
+          </div>
+          <div class="sec-one">
+            <h3 id="card2-h3">What would you want to learn today</h3>
+          </div>
+          <div class="sec-two">
+            <h4 id="card2-h4">
+              Your learning capacity is 80% as daily analytics
+            </h4>
+          </div>
+          <!-- progress-bar -->
+          <div class="p-bar">
+            <label for="HTML5">35% Completed</label>
+            <br />
+            <div class="progress-container round-xlarge" id="prgrs">
+              <div class="progressbar round-xlarge" style="width: 35%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="section-2">
+          <div class="sec-center">
+            <h3>Get started with new basic skills</h3>
+            <h5>Last Date 5th Nov 2020</h5>
+          </div>
+          <hr />
+          <div>
+            <button class="box-button" type="button" value="Register Now">
+              Register Now
+            </button>
+          </div>
+          <div class="user-image">
+            <img src="../../assets/images/Group 33759.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="card3">
+        <div class="astronaut">
+          <div class="astro-img" id="astro">
+            <img class="astro1-img" src="../../assets/images/Astronaut.svg" />
+          </div>
+          <div class="anime">
+            <div class="auditing">
+              <lottie-player
+                src="../../assets/json/Auditing (2).json"
+                background="transparent"
+                id="audit"
+                speed="1"
+                loop
+                autoplay
+              >
+              </lottie-player>
+            </div>
+            <div class="business">
+              <lottie-player
+                src="../../assets/json/business (1).json"
+                background="transparent"
+                id="busi"
+                speed="1"
+                loop
+                autoplay
+              >
+              </lottie-player>
+            </div>
+            <div class="finance">
+              <lottie-player
+                src="../../assets/json/Finance (1).json"
+                background="transparent"
+                id="fin"
+                speed="1"
+                loop
+                autoplay
+              >
+              </lottie-player>
+            </div>
+            <div class="regulations">
+              <lottie-player
+                src="../../assets/json/regulations.json"
+                background="transparent"
+                id="reg"
+                speed="1"
+                loop
+                autoplay
+              >
+              </lottie-player>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card4">
+        <div class="miles-logo">
+          <img src="../../assets/images/Miles-Logo.svg" />
+        </div>
+        <div class="footer-secthird">
+          <h1 id="card4-h1">
+            Don't stop,<br />
+            Make it happen !
+          </h1>
+        </div>
+
+        <div class="footer-secfourth">
+          <table>
+            <tr>
+              <td>Crafted with</td>
+              <td><img src="../../assets/images/heart shape.svg" /></td>
+              <td>in India</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

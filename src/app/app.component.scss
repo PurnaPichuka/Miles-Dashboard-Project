@@ -1,0 +1,409 @@
+.col1{
+    position: relative;
+    float: left;
+    width: 100%;
+    // height: 100%;
+}
+.col2{
+    position: absolute;
+    float: right;
+    margin-left: 50%;
+    width: 100%;
+    // height: 100%;
+}
+@media screen and (max-width: 768px) {
+    .col1, .col2 {
+        width: 50%;
+    }
+}
+
+
+#col-1 {
+    position: relative;
+    width: 12%;
+    float: left;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.132);
+    // z-index: 1010101010;
+    
+}
+
+#col-2 {
+    position: relative;
+    width: 88%;
+    float: left;
+    height: 100%;
+    // z-index: 1010101010
+}
+
+#rc-1{
+    position: relative;
+    width: 50%;
+    float: left;
+    margin-right: 3%;
+    margin-left: 3%;
+    // clear:both;
+}
+
+.carousel{
+    width: 600px;
+    height: 270px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    // background-color: w;
+}
+
+.carousel h1{
+    font-size: 45px;
+}
+.carousel p{
+    font-size: 17px;
+    color: grey;
+}
+
+.carousel .item{
+    flex: 0 0 600px;
+    width: 500px;
+    // display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-weight: 300rem;
+    padding: 0%;
+}
+
+.links a{
+    background-color: rgba(128, 128, 128, 0.279);
+    border-radius: 80%;
+    display: inline-flex;
+    padding: 5px 5px;
+    margin-right: 1%;
+    // margin-top: 50%;
+}
+
+.links a:active, .links a:active{
+    background-color:rgb(86, 20, 200);
+}
+
+//Pencil Animations
+.center{
+    position: absolute;
+    top:120%;
+    left: 55%;
+}
+.pencil{
+    width: 500px;
+    height: 14px;
+    background-color: rgba(254, 105, 51, 0.895);
+    //border-top: 9px solid rgba(254, 105, 51, 0.689);
+    border-bottom: 9px solid rgba(248, 92, 35, 0.689);
+    
+}
+.pencil::before{
+    content: '';
+    position: absolute;
+    left: -80px;
+    top: 16px;
+    border-style: solid;
+    border-color: transparent rgb(243, 240, 240) transparent transparent;
+    border-width: 10px 40px 13px;
+
+}
+.pencil::after{
+    content: '';
+    position: absolute;
+    left: -80px;
+    top: 15px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+    border-width: 10px 40px 13px;
+    transform: scale(.3);
+}
+
+.top{
+    position: absolute;
+    top: 16px;
+    right: 0;
+    height: 13px;
+    width: 20px;
+    background-color: #f1ecec;
+    // border-top: 10px solid #dedede;
+    border-bottom: 10px solid #dedede;
+}
+
+.top::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -100%;
+    width: 130%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.769);
+    border-bottom: 10px solid black;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+//Book1 animation
+.grnbk{
+    position: absolute;
+    top:117.5%;
+    left: 55%;
+    //transform: translate(-50%, -50%);
+}
+.book1{
+    top:-100px;
+    width: 110px;
+    height: 14px;
+    background-color: rgba(16, 186, 16, 0.922);
+}
+.book1 p{
+    color: white;
+    font-size: 10px;
+    padding-top: 2px;
+    // margin-left: 30%;
+    text-align: center;
+}
+.line1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 15px;
+    width: 5px;
+    background-color: white;
+}
+.line2{
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    height: 15px;
+    width: 10px;
+    background-color: white;
+}
+
+.line3{
+    position: absolute;
+    top: 10px;
+    left: 72%;
+    height: 15px;
+    width: 10px;
+    background-color: white;
+}
+.line4{
+    position: absolute;
+    top: 10px;
+    left: 85%;
+    height: 15px;
+    width: 5px;
+    background-color: white;
+}
+//Book2 animation
+.redbk{
+    position: absolute;
+    top: 91.2%;;
+    left: 55%;
+    margin-left: 2.7%;
+}
+.book2{
+    top:-100px;
+    width: 60px;
+    height: 80px;
+    background-color: rgba(184, 8, 8, 0.922);
+    border-top: 10px solid #dededeea;
+    border-left: 15px solid #dedede81;
+}
+.book2 p{
+    color: white;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-left: 50%;
+}
+//Book3 animation
+.ylobk{
+    position: absolute;
+    top:114.2%;
+    left: 55%;
+    margin-left: 0.5%;
+}
+.book3{
+    top:-100px;
+    width: 90px;
+    height: 14px;
+    background-color: whitesmoke;
+    border-top: 3px solid rgb(239, 201, 8);
+    border-bottom: 3px solid rgb(239, 201, 8);
+    border-right: 3px solid rgb(239, 201, 8);
+}
+.line5{
+    position: absolute;
+    top: 4px;
+    left: 2px;
+    height: 12px;
+    width: 2px;
+    background-color: rgba(128, 128, 128, 0.194);
+    border-left: 57px solid whitesmoke;
+    border-right: 30px solid rgba(228, 225, 225, 0.363);
+}
+//Book4 animation
+.blubk{
+    position: absolute;
+    top:105.4%;
+    left: 55%;
+    margin-left: 1.2%;
+}
+.book4{
+    top:-150px;
+    width: 77px;
+    height: 17px;
+    background-color: rgb(40, 155, 244);
+    border-right: 13px solid white;
+}
+.book4 p{
+    color: white;
+    font-size: 10px;
+    padding-top: 2px;
+    padding-left: 3px;
+    text-align: left;
+}
+.line6{
+    position: absolute;
+    top: 14px;
+    left: 30px;
+    height: 3px;
+    width: 20px;
+    background-color: white;
+}
+.line7{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    height: 3px;
+    width: 35px;
+    background-color: white;
+}
+
+//Lamp Animation
+.lamp{
+    position: absolute;
+    top:121.1%;
+    left: 86%;
+}
+.one{
+    width: 75px;
+    height: 13px;
+    background-color: rgba(0, 0, 0, 0.824);
+    border-top-right-radius: 12px;
+    border-top-left-radius:12px;
+}
+.two{
+    position: absolute;
+    top:-62px;
+    left: 70px;
+    width: 5px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.594);
+    transform: rotate(40deg);
+    transform-origin: left;
+}
+.three{
+    position: absolute;
+    top:-63px;
+    left: 91px;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.824);
+    border-radius: 8px;
+}
+.four{
+    position: absolute;
+    top:-124px;
+    left: 75px;
+    width: 5px;
+    height: 73px;
+    background-color: rgba(0, 0, 0, 0.594);
+    transform: rotate(-35deg);
+    transform-origin: left;
+}
+.five{
+    position: absolute;
+    top:-133px;
+    left: 45px;
+    width: 13px;
+    height: 23px;
+    background-color:  rgba(0, 0, 0, 0.737);
+    border-bottom-left-radius:7px ;
+    border-bottom-right-radius:7px ;
+    transform: rotate(-48deg);
+    transform-origin: left;
+}
+.six{
+    position: absolute;
+    top:-163px;
+    left: 18px;
+    width: 17px;
+    height: 35px;
+    background-color:  rgba(0, 0, 0, 0.662);
+    transform: rotate(-50deg);
+}
+.seven{
+    position: absolute;
+    bottom: 157px;
+    left: 32px;
+    width: 5px;
+    height: 17px;
+    background-color:  rgba(0, 0, 0, 0.824);
+    transform: rotate(-50deg);
+}
+.eight{
+    position: absolute;
+    bottom: 122px;
+    left: -21px;
+    width: 35px;
+    border-bottom: 37px solid rgba(0, 0, 0, 0.824);
+    border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+    transform: rotate(40deg);
+}
+.nine{
+    position: absolute;
+    bottom: 111px;
+    left: -23px;
+    width: 30px;
+    height: 20px;
+    background-color:  rgb(225, 223, 215);
+    transform: rotate(-140deg);
+    border-radius: 180px 180px 0 0;
+}
+.ten{
+    position: absolute;
+    top: -135px;
+    left: -91px;
+    width: 60px;
+    border-bottom: 130px solid rgba(250, 239, 79, 0.454);
+    border-left: 20px solid transparent;
+	border-right: 10px solid transparent;
+    transform: rotate(40deg);
+}
+//Notice Board Animation
+.ntcbrd{
+    position: absolute;
+    top:10%;
+    left: 64%;
+}
+.board{
+    width: 280px;
+    height: 150px;
+    background-color: rgba(7, 209, 159, 0.737);
+    border: 7px solid rgba(38, 130, 222, 0.781);
+    //border-top: 9px solid rgba(254, 105, 51, 0.689);
+    //border-bottom: 9px solid rgba(248, 92, 35, 0.689);
+    
+}
+.text{
+    color: white;
+    position: absolute;
+    top:30%;
+    right: 18%;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
