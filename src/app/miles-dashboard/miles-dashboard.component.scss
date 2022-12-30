@@ -82,12 +82,12 @@
     width: 8% !important;
   }
   .arrow3{
-    top: 111% !important;
+    top: 69% !important;
     right: 77% !important;
     width: 18% !important;
   }
   .arrow4{
-    top: 125% !important;
+    top: 77% !important;
     left: 40% !important;
     width: 9% !important;
   }
@@ -186,12 +186,12 @@
     width: 7% !important;
   }
   .arrow3{
-    top: 91% !important;
+    top: 53% !important;
     right: 38% !important;
     width: 19% !important;
   }
   .arrow4{
-    top: 377% !important;
+    top: 216% !important;
     left: 27% !important;
     width: 8% !important;
   }
@@ -312,12 +312,12 @@
     width: 10% !important;
   }
   .arrow3{
-    top: 200% !important;
+    top: 110% !important;
     right: 51% !important;
     width: 25% !important;
   }
   .arrow4{
-    top: 497% !important;
+    top: 273% !important;
     left: 16% !important;
     width: 9% !important;
   }
@@ -518,15 +518,15 @@ img{
 }
 .arrow3{
   position: absolute;
-  top: 59%;
-  right: 77%;
+  top: 51%;
+  right: 74%;
   width: 19%;
   z-index: 1;
 }
 .arrow4{
   position: absolute;
-  top: 69%;
-  left: 37%;
+  top: 61%;
+  left: 34%;
   width: 8%;
   z-index: 1;
 }
@@ -1911,13 +1911,46 @@ position: relative; left: 14px;
   position: relative; left: 17px; color: #EA3A3D;
 }
 
+// @media only screen and (min-width: 1199px) {
+//   .flex-container
+// {
+//   display: flex;
+// }
+// .path{
+//   width: 1470px;
+// }
+// }
+
 @media only screen and (min-width: 1199px) {
   .flex-container
 {
+  margin-left: 50px;
   display: flex;
+  overflow: hidden;
+  padding-top: 35px;
+}
+
+.p{
+  position: relative; left: 4px; top: 20px;
+}
+
+.pp
+{
+ position: relative; left: -15px ; top: 24px;
+}
+#pqr
+{
+font-size: 17px; color: #8BA840; position: relative; left: -1px;
+}
+.milestone1{
+top: -362px;
+}
+.milestone1a
+{
+  top: -362px;
 }
 .path{
-  width: 1470px;
+  top: -118px;
 }
 }
 
