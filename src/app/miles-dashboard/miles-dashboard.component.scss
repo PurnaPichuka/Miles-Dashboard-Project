@@ -7,6 +7,10 @@
   .carousel_part {
     width: 50% !important;
   }
+  
+.carousel__nav {
+    bottom: 35px !important;
+}
   .main__image {
     width: 50% !important;
     position: relative !important;
@@ -39,6 +43,7 @@
       top: 204.5px !important;
       right: 131px !important;
       width: 238px !important;
+      width: 246px !important;
     }
     &__ntcbrd img{
       position: absolute !important;
@@ -67,13 +72,13 @@
     right: 25% !important;
   }
   .arrow1{
-    top: 12% !important;
+    top: 13% !important;
     right: 31% !important;
     width: 17% !important;
   }
   .arrow2{
-    top: 67px !important;
-    right: 28px !important;
+    top: 98px !important;
+    right: 29px !important;
     width: 8% !important;
   }
   .arrow3{
@@ -105,13 +110,13 @@
     font-size: 15px !important;
   }
   .carousel__nav {
-    bottom: -100px !important;
-    left: 22px !important;
+    bottom: -77px !important;
+    left: 19px !important;
   }
   .main__image {
     width: 50% !important;
     position: relative;
-    margin-top: -3%;
+    margin-top: -5% !important;
 
     &__books{
       float: right !important;
@@ -161,22 +166,22 @@
     left: 12% !important;
   }
   .popupimg button{
-    margin-top: -233px !important;
+    margin-top: -242px !important;
     margin-left: 81% !important;
   }
   .popupimg h4{
-    top: 218px !important;
-    right: 20% !important;
-    font-size: 68px;
+    top: 228px !important;
+    right: 24% !important;
+    font-size: 68px !important;
   }
   .arrow1{
-    top: 21% !important;
+    top: 9% !important;
     right: 31% !important;
     width: 17% !important;
 
   }
   .arrow2{
-    top: 94px !important;
+    top: 79px !important;
     right: 26px !important;
     width: 7% !important;
   }
@@ -216,7 +221,8 @@
   .carousel__nav {
     padding: 50px 0 !important;
     left: 25px !important;
-  }
+    bottom: 28px !important;
+    }
   .main{
     display: flex !important;
     flex-direction: column !important;
@@ -286,17 +292,17 @@
     top: 34% !important;
   }
   .popupimg button{
-    margin-top: -563px !important; 
+    margin-top: -468px !important; 
     margin-left: 79% !important;
     width: 23px !important;
   }
   .popupimg h4{
-    top: 169px !important;
+    top: 234px !important;
     right: 18% !important;
     font-size: 41px !important;
   }
   .arrow1{
-    top: 116% !important;
+    top: 64% !important;
     right: 60% !important;
     width: 27% !important;
   }
@@ -373,8 +379,8 @@ img{
     width: 100%;
     padding: 80px 0;
     position: absolute;
-    bottom: 0;
-    left: 30px;
+    bottom: 60px;
+    left: 21px;
   }
   
   .carousel__button {
@@ -402,6 +408,7 @@ img{
         // will cover half of screen width
         width: 50%;
         position: relative;
+        margin-top: 3%;
 
         &__pencil{
             position: relative;
@@ -411,38 +418,30 @@ img{
         &__books{
             position: relative;
             float: right;
-            margin: -137.5px 381px 0 -550.5px;
+            margin: -142.5px 525px 0 -550.5px;
         }
         &__openbook{
             position: relative;
             float: right;
-            margin: -76px 203px 0 0
+            margin: -81px 290px 0 0;
         }
         &__lottie{
           position: absolute;
-          margin: -174px 0 0 15.7rem;
+          margin: -182px 0 0 293px;
           width: 25%;
           height: 25%;
         }
         &__ntcbrd img{
             position: absolute;
             width: 45%;
-            top: 5px;
-            left: 31%;
+            top: -23px;
+            left: 30%;
             z-index: auto;
         }
-        // &__ntcbrd  b{
-        //     position: absolute;
-        //     top: 12%;
-        //     right: 41.5%;
-        //     font-size: 10px;
-        //     z-index: 1;
-            
-        // }
         &__ntcbrd  h4{
           position: absolute;
           top: 9%;
-          right: 28%;
+          right: 32%;
           letter-spacing: 1px;
           font-size: 30px;
           font-family: "chalkduster", Regular !important;
@@ -451,20 +450,20 @@ img{
         }
         &__lamp{
             position: absolute;
-            left: 116px;
+            left: 230px;
             top: 130.3px;
         }
         &__light{
             position: absolute;
-            top: 158.5px;
-            right: 161px;
+            top: 156.5px;
+            right: 177px;
             z-index: -1;
         }
         &__vector{
             position: absolute;
-            top: 4%;
-            right: 9%;
-            width: 25px;
+            top: -4%;
+            right: 13%;
+            width: 27px;
         }
     }
 }
@@ -484,9 +483,9 @@ img{
 
 .popupimg h4{
   position: absolute;
-  top: 163px;
-  right: 26%;
-  font-size: 85px;
+  top: 234px;
+  right: 29%;
+  font-size: 90px;
   font-family: "chalkduster";
   color: white;
   z-index: 1;
@@ -494,7 +493,7 @@ img{
 .popupimg button{
   position: absolute;
   background-color: white;
-  margin-top: -432px;
+  margin-top: -420px;
   margin-left: 82%;
   width: 30px;
     }
@@ -512,8 +511,8 @@ img{
 }
 .arrow2{
     position: absolute;
-    top: 21px;
-    right: 23px;
+    top: 28px;
+    right: 52px;
     width: 8%;
     z-index: -1;
 }
@@ -537,7 +536,10 @@ img{
 
 
 
+
 //Linga
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 575px) {
 
@@ -1907,6 +1909,13 @@ position: relative; left: 14px;
   margin: auto;
   display: block;
   position: relative; left: 17px; color: #EA3A3D;
+}
+
+@media only screen and (min-width: 1199px) {
+  .flex-container
+{
+  display: flex;
+}
 }
 
 
