@@ -1,0 +1,520 @@
+//Poorna---Media queries
+//large-Medium Screen-1155
+  @media only screen and (min-width:992px) and (max-width:1199px){
+    
+    .carousel_part {
+      width: 50% !important;
+    }
+    
+  .carousel__nav {
+      bottom: 35px !important;
+  }
+    .main__image {
+      width: 50% !important;
+      position: relative !important;
+  
+      &__books{
+        position: relative !important;
+        float: right !important;
+        width: 20% !important;
+        margin: 222px 378px 0 -527.5px !important;
+      }
+      &__openbook{
+        position: relative;
+        float: right;
+        width: 23% !important;
+        margin: -72px 189px 0 0 !important;
+      }
+      &__lottie{
+        position: absolute !important;
+        margin: -150px 0 0 260px !important;
+        width: 20% !important;
+        height: 21% !important;
+      }
+      &__lamp{
+        position: absolute !important;
+        left: 196px !important;
+        width: 55% !important;
+        top: 184.3px !important;
+      }
+      &__light{
+        top: 204.5px !important;
+        right: 131px !important;
+        width: 238px !important;
+        width: 246px !important;
+      }
+      &__ntcbrd img{
+        position: absolute !important;
+        width: 45% !important;
+        top: 50px !important;
+        left: 33% !important;
+        z-index: auto !important;
+      }
+      &__ntcbrd h4{
+        top: 19% !important;
+        right: 26% !important;
+        font-size: 28px !important;
+      }
+      &__vector{
+        top: 13% !important;
+        right: 10% !important;
+      }
+        
+    }
+    .popupimg button{
+      margin-top: -425px !important;
+      margin-left: 81% !important;
+    }
+    .popupimg h4{
+      top: 170px !important;
+      right: 25% !important;
+    }
+    .arrow1{
+      top: 13% !important;
+      right: 31% !important;
+      width: 17% !important;
+    }
+    .arrow2{
+      top: 98px !important;
+      right: 29px !important;
+      width: 8% !important;
+    }
+    .arrow3{
+      top: 70% !important;
+      right: 78% !important;
+      width: 18% !important;
+    }
+    .arrow4{
+      top: 77% !important;
+      left: 40% !important;
+      width: 9% !important;
+    }
+    
+  }
+  
+  //medium screen--950
+  @media only screen and (min-width:576px) and (max-width:991px){
+    
+    .carousel_part {
+      width: 50% !important;
+    }
+    .carousel__heading{
+      font-size: 43px !important;
+    }
+    .carousel__item {
+      height: 200px !important;
+      font-size: 15px !important;
+    }
+    .carousel__nav {
+      bottom: -77px !important;
+      left: 19px !important;
+    }
+    .main__image {
+      width: 50% !important;
+      position: relative;
+      margin-top: -5% !important;
+  
+      &__books{
+        float: right !important;
+        width: 20% !important;
+        margin: -94.5px 301px 0 0 !important;
+      }
+      &__openbook{
+        width: 20% !important;
+        margin: -52px 163px 0 0 !important;
+      }
+      &__lottie{
+        margin: -120px 0 0 207.7px !important;
+        width: 20% !important;
+        height: 22% !important;
+      }
+      &__lamp{
+        left: 171px !important;
+        width: 55% !important;
+        top: 209.3px !important;
+      }
+      &__light{
+        top: 226.5px !important;
+        right: 95px !important;
+        width: 200px !important;
+      }
+      &__ntcbrd img{
+        width: 45% !important;
+        top: 101px !important;
+        left: 34% !important;
+      }
+      &__ntcbrd h4{
+        top: 34% !important;
+        right: 24% !important;
+        font-size: 24px !important;
+      }
+      &__vector{
+        top: 30% !important;
+        right: 9% !important;
+        width: 22px !important;
+      }
+        
+    }
+  
+    .popupimg img{
+      width: 75% !important;
+      top: 18% !important;
+      left: 12% !important;
+    }
+    .popupimg button{
+      margin-top: -242px !important;
+      margin-left: 81% !important;
+    }
+    .popupimg h4{
+      top: 228px !important;
+      right: 24% !important;
+      font-size: 68px !important;
+    }
+    .arrow1{
+      top: 9% !important;
+      right: 31% !important;
+      width: 17% !important;
+  
+    }
+    .arrow2{
+      top: 79px !important;
+      right: 26px !important;
+      width: 7% !important;
+    }
+    .arrow3{
+      top: 53% !important;
+      right: 38% !important;
+      width: 19% !important;
+    }
+    .arrow4{
+      top: 216% !important;
+      left: 27% !important;
+      width: 8% !important;
+    }
+  }
+  
+  //Mobile screen--470
+  @media only screen and (min-width:320px) and (max-width:575px){
+   
+    .main{
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .carousel_part {
+      width: 100% !important;
+    }
+    .carousel {
+      position: relative !important;
+      width: 100% !important;
+    }
+    .carousel__heading{
+      padding: 10px 0 0 25px !important;
+      font-size: 40px !important;
+      font-weight: bolder !important;
+    }
+    .carousel__nav {
+      padding: 20px 0 !important;
+      z-index: 1;
+      }
+
+    .main{
+      display: flex !important;
+      flex-direction: column !important;
+    
+    &__image {
+      width: 100% !important;
+      position: relative !important;
+      margin: -34% 0 77px 0 !important;
+  
+      &__pencil{
+        position: relative !important;
+        width: 70vw !important;
+        margin: 284px 0 0 70px !important;
+      }
+  
+      &__books{
+        position: relative !important;
+        float: right !important;
+        width: 17% !important;
+        margin: -82px 287px 0 0 !important;
+      }
+      &__openbook{
+        position: relative !important;
+        float: right !important;
+        width: 18% !important;
+        margin: -46px 164px 0 0 !important;
+      }
+      &__lottie{
+        position: absolute !important;
+        margin: -98px 0 0 12.7rem !important;
+        width: 20% !important;
+        height: 20% !important;
+      }
+      &__lamp{
+        position: absolute !important;
+        left: 183px !important;
+        width: 45% !important;
+        top: 196.3px !important;
+      }
+      &__light{
+        top: 208.5px !important;
+        right: 111px !important;
+        width: 175px !important;
+      }
+      &__ntcbrd img{
+        position: absolute !important;
+        width: 39% !important;
+        top: 103px !important;
+        left: 36% !important;
+        z-index: auto !important;
+      }
+      &__ntcbrd h4{
+        top: 45% !important;
+        right: 30% !important;
+        font-size: 16px !important;
+      }
+      &__vector{
+        top: 37% !important;
+        right: 14% !important;
+        width: 21px !important;
+      }
+        
+    }
+  }
+  .popupimg img{
+      width: 72% !important;
+      top: 34% !important;
+    }
+    .popupimg button{
+      margin-top: -480px !important;
+      margin-left: 80% !important;
+      width: 24px !important;
+    }
+    .popupimg h4{
+      top: 234px !important;
+      right: 18% !important;
+      font-size: 41px !important;
+    }
+    .arrow1{
+      top: 64% !important;
+      right: 60% !important;
+      width: 27% !important;
+    }
+    .arrow2{
+      top: 408px !important;
+      right: 60px !important;
+      width: 10% !important;
+    }
+    .arrow3{
+      top: 110% !important;
+      right: 51% !important;
+      width: 25% !important;
+    }
+    .arrow4{
+      top: 274% !important;
+      left: 16% !important;
+      width: 9% !important;
+    }
+    
+  }
+  
+  @font-face {
+      font-family: 'chalkduster';
+      src: url(/assets/Fonts/Chalk-Regular.ttf);
+  }
+  @font-face {
+      font-family: 'Montserrat';
+      src: url(/assets/Fonts/Montserrat-VariableFont_wght.ttf);
+  }
+  
+  .containers{
+    font-family: 'Montserrat';
+  }
+  
+  // CAROUSEL-PART-CSS
+  .carousel_part {
+    width: 50%
+  }
+  .carousel {
+      position: relative;
+      width: 100%
+    }
+  
+    .carousel__heading span{
+      display: block;
+    }
+  
+    .carousel__heading{
+      padding: 10px 0 0 25px;
+      font-size: 50px;
+      font-weight: bolder
+    }
+    
+    .carousel__item {
+      height: 300px;
+      padding: 1em;
+      margin-left: 10px;
+      font-size: 18px;
+      color:  grey;
+    }
+    
+    .carousel__nav {
+      width: 100%;
+      padding: 80px 0;
+      position: absolute;
+      bottom: 60px;
+      left: 21px;
+    }
+    
+    .carousel__button {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      background: rgba(128, 128, 128, 0.24);
+      border-radius: 50%;
+      margin: 50px 5px;
+      cursor: pointer;
+    }
+    
+    .radio_color{
+      background: rgba(7, 165, 223, 0.816);
+    }
+  
+  .main{
+  
+      display: flex;
+      flex-direction: row;
+  
+      &__image{
+          // will cover half of screen width
+          width: 50%;
+          position: relative;
+          margin-top: 3%;
+  
+          &__pencil{
+              position: relative;
+              width: 40vw;
+              margin: 20em 0 0 3em;
+          }
+          &__books{
+              position: relative;
+              float: right;
+              margin: -146.5px 525px 0 -550.5px;
+          }
+          &__openbook{
+              position: relative;
+              float: right;
+              margin: -81px 290px 0 0;
+          }
+          &__lottie{
+            position: absolute;
+            margin: -182px 0 0 293px;
+            width: 25%;
+            height: 25%;
+          }
+          &__ntcbrd img{
+              position: absolute;
+              width: 45%;
+              top: -23px;
+              left: 30%;
+              z-index: auto;
+          }
+          &__ntcbrd  h4{
+            position: absolute;
+            top: 9%;
+            right: 32%;
+            letter-spacing: 1px;
+            font-size: 30px;
+            font-family: "chalkduster", Regular !important;
+            color: white;
+            z-index: auto;
+          }
+          &__lamp{
+              position: absolute;
+              left: 230px;
+              top: 130.3px;
+          }
+          &__light{
+              position: absolute;
+              top: 156.5px;
+              right: 177px;
+              z-index: -1;
+          }
+          &__vector{
+              position: absolute;
+              top: -4%;
+              right: 13%;
+              width: 27px;
+          }
+      }
+  }
+  
+  .popupimg img{
+      position: absolute;
+      width: 70%;
+      top: 8%;
+      left: 15%;
+      z-index: 1;
+  }
+  
+  .popupimg h4{
+    position: absolute;
+    top: 234px;
+    right: 29%;
+    font-size: 90px;
+    font-family: "chalkduster";
+    color: white;
+    z-index: 1;
+  }
+  .popupimg button{
+    position: absolute;
+    background-color: white;
+    margin-top: -420px;
+    margin-left: 82%;
+    width: 30px;
+      }
+  .close{
+      background-color: white;
+      margin-top: -5%;
+      z-index: 10;
+  }
+  .arrow1{
+      position: absolute;
+      top: 2%;
+      right: 32%;
+      width: 20%;
+      z-index: 1;
+  }
+  .arrow2{
+      position: absolute;
+      top: 28px;
+      right: 52px;
+      width: 8%;
+      z-index: -1;
+  }
+  .arrow3{
+    position: absolute;
+    top: 56%;
+    right: 69%;
+    width: 19%;
+    z-index: 1;
+  }
+  .arrow4{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    width: 8%;
+    z-index: 1;
+  }
+
+  .containerabc{
+    opacity: 0.2;
+    z-index: 1010;
+}
+  .transperent{
+      opacity: 0.2;
+  }
+
+  
+  
+  

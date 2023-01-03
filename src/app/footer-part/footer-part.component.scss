@@ -1,0 +1,1069 @@
+
+  // css Amit Code
+  @font-face {
+    font-family: 'Montserrat';
+    src: url(/assets/Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: Montserrat !important;
+  }
+
+.containerabc{
+    opacity: 0.2;
+}
+
+.transperent{
+  opacity: 0.2;
+}
+
+  .container {
+    overflow: hidden;
+  }
+  
+  .row1,
+  .row2 {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .row1 .card1,
+  .card2 {
+    position: relative;
+    background-color: white;
+    margin: 0.625rem;
+    width: 48%;
+    height: 24.6rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .background-arch {
+    position: absolute;
+    right: -60px;
+    bottom: -92px;
+  }
+  
+  .background-blue {
+    position: absolute;
+    width: 100%;
+    max-width: 725px;
+  }
+  
+  .row1 .card1 {
+    margin-left: 1rem;
+  }
+  
+  .row1 .card2 {
+    margin-left: 1.375rem;
+  }
+  
+  .row2 .card3,
+  .card4 {
+    position: relative;
+    background-color: white;
+    margin: 0.625rem;
+    width: 48%;
+    height: 31.6rem;
+    border-radius: 5px;
+  }
+  
+  .row2 .card3 {
+    margin-left: 1rem;
+  }
+  
+  .row2 .card4 {
+    margin-left: 1.375rem;
+  }
+  
+  card1 {
+    position: relative;
+  }
+  
+  .card1 h4 {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: 7.56933px;
+    text-transform: uppercase;
+    color: #1D1D1D;
+    margin-left: 5%;
+    margin-top: 30px;
+  }
+  
+  .card1 .pro {
+    position: absolute;
+    margin-left: 5%;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 31px;
+    letter-spacing: -0.782722px;
+    color: #1D1D1D;
+  }
+  
+  .card1 .pro-button {
+    position: absolute;
+    margin-left: 20px;
+    background: #0B5ED7;
+    border-radius: 1.5rem;
+    border: 2px solid #0B5ED7;
+    width: 65px;
+    height: 30px;
+    color: white;
+    font-weight: 700;
+    margin-top: 4px;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    line-height: 17px;
+    font-style: normal;
+  }
+  
+  .card1 h3 {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 100px;
+    font-family: montserrat;
+    font-style: normal;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 6.48799991607666px;
+    text-align: left;
+    color: #8A959E;
+    width: 418px;
+    text-transform: uppercase;
+  }
+  
+  .background-arch {
+    position: absolute;
+    right: -43.1px;
+    bottom: -64.8px;
+    height: 226px;
+  }
+  
+  .card1 .box-button {
+    position: absolute;
+    color: white;
+    width: 146px;
+    height: 36px;
+    background: #407BFF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.938rem;
+    border: 2px solid #407BFF;
+    float: left;
+    margin-top: 261px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.01em;
+  }
+  
+  .background-blue {
+    position: absolute;
+    width: 100%;
+    max-width: 725px;
+    height: auto;
+  }
+  
+  .section-1 {
+    width: 100%;
+    height: 55%;
+    background: #407BFF;
+    position: absolute;
+    margin-top: 0px;
+    border-radius: 4px;
+    margin-left: 0px;
+  }
+  
+  .bibliophile img {
+    position: absolute;
+    width: 24%;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  .sec-one {
+    position: absolute;
+    width: 323px;
+    height: 64px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.625rem;
+    line-height: 32px;
+    letter-spacing: -0.741567px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    top: -0px;
+  }
+  
+  .sec-two {
+    position: absolute;
+    width: 298px;
+    height: 37px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.578125px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    top: 90px;
+  }
+  
+  .p-bar {
+    position: relative;
+    margin-top: 162px;
+    margin-left: 49px;
+  
+  }
+  
+  .p-bar label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+  }
+  
+  progress {
+    accent-color: #00CE99;
+    Fill: Solid #FFFFFF
+  }
+  
+  progress[value] {
+    width: 430px;
+    height: 15px;
+  }
+  
+  .sec-center {
+    position: absolute;
+    margin-top: 13.5rem;
+    margin-left: 3.125rem;
+  }
+  
+  .sec-center h3 {
+    width: 280px;
+    height: 25px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.488481px;
+    color: #1D1D1D;
+  }
+  
+  .sec-center .h3,
+  h5 {
+    width: 200px;
+    height: 18px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8A959E;
+    margin-top: -6px;
+    letter-spacing: 1px;
+  }
+  
+  .card2 hr {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    width: 100%;
+    color: #8A959E;
+    mix-blend-mode: normal;
+    opacity: 0.23;
+    /* height: 1px; */
+    border: 1px solid #8A959E;
+  
+  }
+  
+  .section-2 .box-button {
+    position: absolute;
+    color: white;
+    width: 146px;
+    height: 36px;
+    background: #407BFF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 2px solid #407BFF;
+    top: 332px;
+    right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.01em;
+  }
+  
+  .user-image img {
+    position: absolute;
+    width: 93px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 325px;
+  }
+  
+  .astro-img img {
+    position: absolute;
+    margin-top: -503PX;
+    max-width: 100%;
+    height: auto;
+    margin-left: 40px;
+  
+  }
+  
+  .anime .auditing {
+    position: absolute;
+    width: 124px;
+    height: 124px;
+    margin-top: -475px;
+    margin-left: 150px;
+  
+  }
+  
+  .anime .business {
+    position: absolute;
+    width: 183px;
+    height: 261px;
+    margin-top: -292px;
+    margin-left: 25px;
+  }
+  
+  .anime .finance {
+    position: absolute;
+    width: 127px;
+    height: 128px;
+    left: 328px;
+    top: -126px;
+  }
+  
+  .anime .regulations {
+    position: absolute;
+    width: 150px;
+    height: 145px;
+    left: 401px;
+    top: -352px;
+  }
+  
+  .astronaut {
+    position: absolute;
+    width: 45.31rem;
+    height: 31.3rem;
+    border-radius: 4px;
+    float: left;
+    margin-top: 510px
+  }
+  
+  .miles-logo img {
+    position: absolute;
+    width: 102px;
+    height: 30px;
+    left: 78px;
+    top: 146px;
+  }
+  
+  .footer-secthird h1 {
+    position: absolute;
+    width: 637px;
+    height: 164px;
+    left: 78px;
+    top: 133px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #433F3F;
+  }
+  
+  .footer-secfourth img {
+    width: 300px;
+    width: max-content;
+    height: 26px;
+    padding: 7px;
+    margin-bottom: -12px;
+  
+  }
+  
+  
+  .footer-secfourth .craft {
+    color: #9E9E9E;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .footer-secfourth .heart {}
+  
+  
+  .section-2 {}
+  
+  
+  
+  .row1 {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 33%;
+  }
+  
+  #card1-h3 {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 100px;
+    font-family: montserrat;
+    font-style: normal;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 6.4879999161px;
+    text-align: left;
+    color: #8A959E;
+    width: 418px;
+    text-transform: uppercase;
+    
+  }
+  
+  #regnow {
+    position: absolute;
+    color: white;
+    width: 146px;
+    height: 36px;
+    background: #407BFF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 2px solid #407BFF;
+    float: left;
+    margin-top: 261px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+  }
+  
+  #card2-h3 {
+    font-size: 1.17em;
+  }
+  
+  #card2-h4 {
+    font-size: 15px;
+    margin-top: 6%;
+  }
+  
+  #prgrs {
+    width: 260px;
+  }
+  
+  #astro {
+    position: relative;
+    margin-top: 12%;
+    max-width: 100%;
+    height: auto;
+    margin-left: -47px;
+  }
+  
+  #card4-h1 {
+    position: absolute;
+    width: 512px;
+    height: 169px;
+    left: 12px;
+    top: 133px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    color: #433F3F;
+  }
+  
+  
+  .container {
+    overflow: hidden;
+    margin-top: -31%;
+  }
+  
+  .row1,
+  .row2 {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .row1 .card1,
+  .card2 {
+    position: relative;
+    background-color: white;
+    margin: 0.625rem;
+    width: 48%;
+    height: 24.6rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .background-arch {
+    position: absolute;
+    right: -60px;
+    bottom: -92px;
+  }
+  
+  .background-blue {
+    position: absolute;
+    width: 100%;
+    max-width: 725px;
+  }
+  
+  .row1 .card1 {
+    margin-left: 1rem;
+  }
+  
+  .row1 .card2 {
+    margin-left: 1.375rem;
+  }
+  
+  .row2 .card3,
+  .card4 {
+    position: relative;
+    background-color: white;
+    margin: 0.625rem;
+    width: 48%;
+    height: 31.6rem;
+    border-radius: 5px;
+  }
+  
+  .row2 .card3 {
+    margin: 43px 0 0 20px;
+  }
+  
+  .row2 .card4 {
+    margin-left: 1.375rem;
+  }
+  
+  card1 {
+    position: relative;
+  }
+  
+  .card1 h4 {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    letter-spacing: 7.56933px;
+    text-transform: uppercase;
+    color: #1D1D1D;
+    margin-left: 5%;
+    margin-top: 30px;
+  }
+  
+  .card1 .pro {
+    position: absolute;
+    margin-left: 5%;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 31px;
+    letter-spacing: -0.782722px;
+    color: #1D1D1D;
+  }
+  
+  .card1 .pro-button {
+    position: absolute;
+    margin-left: 20px;
+    background: #0B5ED7;
+    border-radius: 1.5rem;
+    border: 2px solid #0B5ED7;
+    width: 65px;
+    height: 30px;
+    color: white;
+    font-weight: 700;
+    margin-top: 4px;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    line-height: 17px;
+    font-style: normal;
+  }
+  
+  .card1 h3 {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 100px;
+    font-family: montserrat;
+    font-style: normal;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 6.48799991607666px;
+    text-align: left;
+    color: #8A959E;
+    width: 418px;
+    text-transform: uppercase;
+  }
+  
+  .background-arch {
+    position: absolute;
+    right: -43.1px;
+    bottom: -64.8px;
+    height: 226px;
+  }
+  
+  .card1 .box-button {
+    position: absolute;
+    color: white;
+    width: 146px;
+    height: 36px;
+    background: #407BFF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.938rem;
+    border: 2px solid #407BFF;
+    float: left;
+    margin-top: 261px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.01em;
+  }
+  
+  .background-blue {
+    position: absolute;
+    width: 100%;
+    max-width: 725px;
+    height: auto;
+  }
+  
+  .section-1 {
+    width: 100%;
+    height: 55%;
+    background: #407BFF;
+    position: absolute;
+    margin-top: 0px;
+    border-radius: 4px;
+    margin-left: 0px;
+  }
+  
+  .bibliophile img {
+    position: absolute;
+    width: 24%;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  .sec-one {
+    position: absolute;
+    width: 323px;
+    height: 64px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.625rem;
+    line-height: 32px;
+    letter-spacing: -0.741567px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    top: -0px;
+  }
+  
+  .sec-two {
+    position: absolute;
+    width: 298px;
+    height: 37px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.578125px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    top: 90px;
+  }
+  
+  .p-bar {
+    position: absolute;
+    margin-top: 162px;
+    margin-left: 49px;
+  
+  }
+  
+  .p-bar label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+  }
+  
+  .p-bar {
+    position: absolute;
+    margin-top: 162px;
+    margin-left: 49px;
+  }
+  
+  .p-bar label {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+  }
+  
+  .progress-container {
+    width: 65%;
+    height: .4em;
+    position: relative;
+    background-color: white;
+    top: 8px;
+    left: 0px;
+  }
+  
+  .progressbar {
+    background-color: #00CE99;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .round-xlarge {
+    border-radius: 16px !important
+  }
+  
+  .sec-center {
+    position: absolute;
+    margin-top: 13.5rem;
+    margin-left: 3.125rem;
+  }
+  
+  .sec-center h3 {
+    width: 280px;
+    height: 25px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.488481px;
+    color: #1D1D1D;
+  }
+  
+  .sec-center .h3,
+  h5 {
+    width: 200px;
+    height: 18px;
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8A959E;
+    margin-top: -6px;
+    letter-spacing: 1px;
+  }
+  
+  .card2 hr {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    width: 100%;
+    color: #8A959E;
+    mix-blend-mode: normal;
+    opacity: 0.23;
+    /* height: 1px; */
+    border: 1px solid #8A959E;
+  
+  }
+  
+  .section-2 .box-button {
+    position: absolute;
+    color: white;
+    width: 146px;
+    height: 36px;
+    background: #407BFF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 2px solid #407BFF;
+    top: 332px;
+    right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+  }
+  
+  .user-image img {
+    position: absolute;
+    width: 93px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 325px;
+  }
+  
+  .astro-img {
+    position: relative;
+  }
+  
+  .responsive {
+    height: 100%;
+    width: auto;
+  }
+  
+  .astro-img img {
+    position: absolute;
+    margin-top: -545PX;
+    max-width: 80%;
+    height: auto;
+    margin-left: 67px;
+  
+  }
+  
+  .anime .auditing {
+    position: absolute;
+    width: 124px;
+    height: 124px;
+    margin-top: -509px;
+    margin-left: 143px;
+    
+  
+  }
+  
+  .astronaut {
+    position: absolute;
+    width: 45.31rem;
+    height: 31.3rem;
+    border-radius: 4px;
+    float: left;
+    margin-top: 510px
+  }
+  
+  .miles-logo img {
+    position: absolute;
+    width: 102px;
+    height: 30px;
+    left: 15px;
+    top: 146px;
+  }
+  
+  .footer-secthird h1 {
+    position: absolute;
+    width: 637px;
+    height: 164px;
+    left: 78px;
+    top: 133px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #433F3F;
+  }
+
+ 
+  .footer-secfourth {
+    position: relative;
+    left: 67px;
+    top: 305px;
+  }
+.footer-secfourth table{
+  margin: 25px 0 0 -54px;
+}
+ 
+  
+  .section-2 {}
+  
+  
+  //Amith---Media queries
+  //1155px --large screen
+  @media only screen and (min-width:992px) and (max-width:1199px){
+    #card4-h1{
+      font-size: 50px !important;
+    }
+    .astro-img img {
+      max-width: 65%;
+    }
+    .anime .auditing{
+      margin-top: -521px;
+      margin-left: 100px;
+    }
+    .anime .business {
+      margin-top: -355px;
+      margin-left: 2px;
+    }
+    .anime .finance{
+      left: 263px;
+      top: -200px;
+    }
+    .anime .regulations{
+      left: 320px;
+      top: -383px;
+  }
+
+}
+
+  //950px --medium screen
+  @media only screen and (min-width:576px) and (max-width:991px) {
+    .card1 .pro {
+      margin: 5% 0 0 5% !important;
+    }
+
+    #card4-h1 {
+      font-size: 40px !important;
+      line-height: 55px !important;
+  }
+  .footer-secfourth table {
+    margin: 4px 0 0 -54px !important;
+  }
+  .astro-img img {
+    margin-top: -563PX !important;
+    max-width: 54% !important;
+  }
+  .anime .auditing {
+    width: 110px;
+    height: 110px;
+    margin-top: -539px;
+    margin-left: 70px;
+  }
+  .anime .business {
+    width: 120px;
+    height: 120px;
+    margin-top: -367px;
+    margin-left: 19px;
+  }
+  .anime .finance{
+    width: 100px;
+    height: 110px;
+    left: 217px;
+    top: -261px;
+  }
+  .anime .regulations {
+    width: 120px;
+    height: 120px;
+    left: 271px;
+    top: -412px;
+  }
+}
+  //470px --small screen
+  @media only screen and (min-width:320px) and (max-width:575px) {
+  
+    .row1,
+    .row2 {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .row1 .card1,
+    .card2 {
+      position: relative;
+      width: 100%;
+      height: 24rem;
+  
+    }
+  
+    .row2 .card3,
+    .card4 {
+      position: relative;
+      width: 100%;
+      height: 24rem;
+  
+    }
+
+    .miles-logo img {
+      top: 50px;
+    }
+
+    .astro-img img{
+      margin-top: -570PX;
+      max-width: 53%;
+    }
+
+    .anime .auditing {
+      width: 86px;
+      height: 110px;
+      margin-top: -550px !important;
+      margin-left: 95px !important;
+    }
+    .anime .business {
+      width: 110px;
+      height: 110px;
+      margin-top: -377px !important;
+      margin-left: 24px !important;
+    }
+    .anime .finance{
+      width: 85px !important;
+      height: 91px !important;
+      top: -270px !important;
+      left: 220px !important;
+    }
+    .anime .regulations {
+      width: 110px;
+      height: 110px;
+    top: -421px !important;
+      left: 268px !important;
+    }
+
+    #card4-h1 {
+      font-size: 35px;
+      line-height: 47px;
+      top: 45px;
+  }
+  .footer-secfourth {
+    position: relative;
+    left: 65px;
+    top: 185px;
+  }
+
+    .row2 .card4{
+      margin-left: 40px;
+    }
+    .anime .auditing{
+      margin-top:-485px;
+      margin-left:163px;
+    }
+      .anime .business{
+        margin-top:-219px;
+        margin-left:44px;
+      }
+
+      .anime .finance{
+        top:-114px;
+        left: 411px;
+      }
+        .anime .regulations{
+          top:-355px;
+          left: 494px;
+        }
+        
+}

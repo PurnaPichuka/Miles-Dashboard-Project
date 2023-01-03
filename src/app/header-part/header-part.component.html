@@ -1,0 +1,130 @@
+<!-- Poorna -->
+<header class="clickOutSide" clickOutside (clickOutside)="clickedOutside()">
+  <div class="containers">
+    <div
+      class="main"
+      id="blur"
+      [ngClass]="{
+        containerabc: showModal == true,
+        transperent: arrow == true
+      }"
+    >
+      <!-- carousel -->
+      <div class="carousel_part">
+        <div class="carousel">
+          <div class="carousel__heading">
+            <span>Communication via</span><span>automatic actions</span>
+          </div>
+          <div class="carousel__item" *ngIf="showData1">
+            Task automation refers to the use of software to complete work
+            activites. Task automation improves the accuracy & consistency and
+            powers more efficient processes. Task automation refers to the use
+            of software to complete work activites. Task automation improves the
+            accuracy.--1
+          </div>
+          <div class="carousel__item" *ngIf="showData2">
+            Task automation refers to the use of software to complete work
+            activites. Task automation improves the accuracy & consistency and
+            powers more efficient processes. Task automation refers to the use
+            of software to complete work activites. Task automation improves the
+            accuracy.--2
+          </div>
+          <div class="carousel__item" *ngIf="showData3">
+            Task automation refers to the use of software to complete work
+            activites. Task automation improves the accuracy & consistency and
+            powers more efficient processes. Task automation refers to the use
+            of software to complete work activites. Task automation improves the
+            accuracy.--3
+          </div>
+          <div class="carousel__item" *ngIf="showData4">
+            Task automation refers to the use of software to complete work
+            activites. Task automation improves the accuracy & consistency and
+            powers more efficient processes. Task automation refers to the use
+            of software to complete work activites. Task automation improves the
+            accuracy.--4
+          </div>
+
+          <div class="carousel__nav">
+            <span
+              class="carousel__button"
+              (click)="content1()"
+              [ngClass]="{ radio_color: content_1_color == true }"
+            ></span>
+            <span
+              class="carousel__button"
+              (click)="content2()"
+              [ngClass]="{ radio_color: content_2_color == true }"
+            ></span>
+            <span
+              class="carousel__button"
+              (click)="content3()"
+              [ngClass]="{ radio_color: content_3_color == true }"
+            ></span>
+            <span
+              class="carousel__button"
+              (click)="content4()"
+              [ngClass]="{ radio_color: content_4_color == true }"
+            ></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animations -->
+      <div class="main__image">
+        <img src="/assets/images/Group 33752.svg" class="main__image__pencil" />
+        <img src="/assets/images/Group 33144.svg" class="main__image__books" />
+        <img src="/assets/images/Group.svg" class="main__image__openbook" />
+        <!-- lottiefiles -->
+        <lottie-player
+          class="main__image__lottie"
+          src="assets/json/Business.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        >
+        </lottie-player>
+        <div class="main__image__ntcbrd">
+          <a href="#!" (click)="popUp()">
+            <img src="/assets/images/Group 33784.svg" />
+          </a>
+          <h4>{{ data1.ntcbrd }}</h4>
+        </div>
+        <a href="#!">
+          <img
+            src="/assets/images/lamp 33226.svg"
+            class="main__image__lamp"
+            (click)="lytSwitch()"
+          />
+        </a>
+        <img
+          src="/assets/images/Vector 2.svg"
+          class="main__image__light"
+          *ngIf="show"
+        />
+        <a href="#!">
+          <img
+            src="/assets/images/Vector.svg"
+            (click)="guide()"
+            class="main__image__vector"
+          />
+        </a>
+      </div>
+    </div>
+    <div class="popupimg" *ngIf="showModal">
+      <button class="close" (click)="close()">&times;</button>
+      <img src="/assets/images/Group 33784.svg" />
+      <h4>{{ data1.ntcbrd }}</h4>
+    </div>
+    <div>
+      <img src="/assets/images/Group 33757.svg" class="arrow1" *ngIf="arrow" />
+      <img src="/assets/images/Group 33758.svg" class="arrow2" *ngIf="arrow" />
+      <img src="/assets/images/Group 33779.svg" class="arrow3" *ngIf="arrow" />
+      <img src="/assets/images/Group 33780.svg" class="arrow4" *ngIf="arrow" />
+    </div>
+  </div>
+</header>
+
+<app-main-part [showModal]="showModal" [arrow]="arrow"></app-main-part>
+
+<app-footer-part [showModal]="showModal" [arrow]="arrow"></app-footer-part>

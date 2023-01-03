@@ -4,16 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { MilesDashboardComponent } from './miles-dashboard/miles-dashboard.component';
 import { ClickOutsideDirective } from './clickOutside';
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderPartComponent } from './header-part/header-part.component';
+import { MainPartComponent } from './main-part/main-part.component';
+import { FooterPartComponent } from './footer-part/footer-part.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MilesDashboardComponent,
     ClickOutsideDirective,
-    
+    HeaderPartComponent,
+    MainPartComponent,
+    FooterPartComponent
   ],
   imports: [
     BrowserModule,
